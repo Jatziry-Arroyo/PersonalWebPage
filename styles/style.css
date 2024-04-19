@@ -1,0 +1,130 @@
+nav{
+    font-size: 20px;
+    background-color: #31363F;
+    padding: 8px;
+    margin-bottom: 60px;   
+    display: flex; 
+    justify-content:space-between;
+    
+}
+
+nav li{
+    border-radius: 80px;
+    border: 2px solid #EEEEEE;
+    margin-right: 30px;
+    background-color: #EEEEEE;
+    padding: 15px;
+}
+
+nav li:hover{
+    opacity: 0.3;
+}
+
+ul{
+    display: flex; 
+    justify-content:flex-end;
+    margin-right: 60px;
+}
+
+.logo1{
+    margin-left: 60px;
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#acerca{
+    background-color: #76ABAE;
+    margin: 0;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-right: 120px;
+    margin-left: 120px;
+    padding-top: 20px;
+}
+
+.parte1 img{
+    width: 160px;
+    border-radius: 500px;
+}
+
+.parte1{
+    background-color: #76ABAE;
+    height: 35vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 120px;
+    margin-left: 120px;
+
+}
+
+.parte1 h2{
+    text-align: center;
+    font-size: 25px;
+    width: 50%;
+}
+
+.parte1 h2 span{
+    color: #EEEEEE;
+    font-weight: bold;
+}
+
+
+.parte2{
+    background:url(/assets/logo.png); /*background con img de logo*/
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 105vh;
+    display: flex; /*poner los elementos uno junto a otro*/
+    justify-content:space-around;
+    margin: 0px 50px 0 50px;   
+}
+
+.parte2 h2{
+    background-color: black;
+    color: #EEEEEE;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+}
+
+.info-parte2{
+    background-color: rgba(238, 238, 238, 0.6);
+    margin: 60px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.parte3{
+    background-color: #EEEEEE;
+    color: black;
+    height: 20vh;  
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    background-color: #31363F;
+    color: #EEEEEE;
+    font-size: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+footer img{
+    margin: 0px 10px 0px 0px;
+}
